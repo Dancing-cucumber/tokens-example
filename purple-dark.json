@@ -1,0 +1,95 @@
+{
+  "foundation": {
+    "primary": {
+      "400": {
+        "value": "#ff5271",
+        "type": "color"
+      },
+      "500": {
+        "value": "#e64a66",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "25": {
+        "value": "#fcfcfc",
+        "type": "color"
+      },
+      "50": {
+        "value": "#f5f5f5",
+        "type": "color"
+      },
+      "400": {
+        "value": "#8c8c8c",
+        "type": "color"
+      },
+      "900": {
+        "value": "#141414",
+        "type": "color"
+      }
+    }
+  },
+  "btn": {
+    "primary": {
+      "bg": {
+        "default": {
+          "value": "{foundation.primary.400}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{foundation.primary.500}",
+          "type": "color"
+        }
+      },
+      "body": {
+        "default": {
+          "value": "{foundation.neutral.0}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{foundation.neutral.0}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "surface": {
+    "25": {
+      "default": {
+        "value": "{foundation.neutral.25}",
+        "type": "color"
+      }
+    },
+    "50": {
+      "default": {
+        "value": "{foundation.neutral.50}",
+        "type": "color"
+      }
+    }
+  },
+  "text": {
+    "default": {
+      "value": "{foundation.neutral.900}",
+      "type": "color"
+    },
+    "minor": {
+      "value": "{foundation.neutral.400}",
+      "type": "color"
+    }
+  },
+  "elevation-400": {
+    "value": {
+      "x": "0",
+      "y": "4",
+      "blur": "16",
+      "spread": "0",
+      "color": "{foundation.neutral.50}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  }
+}
