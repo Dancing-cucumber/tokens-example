@@ -1,0 +1,23 @@
+* {
+/* Color styles */
+--foundation--primary--400: rgba(255, 82, 113, 1);
+--foundation--primary--500: rgba(230, 74, 102, 1);
+--foundation--neutral--0: rgba(255, 255, 255, 1);
+--foundation--neutral--25: rgba(252, 252, 252, 1);
+--foundation--neutral--500: rgba(89, 89, 89, 1);
+--foundation--neutral--900: rgba(20, 20, 20, 1);
+--foundation--neutral--400: rgba(140, 140, 140, 1);
+--foundation--neutral--50: rgba(245, 245, 245, 1);
+--btn--primary--bg--default: rgba(255, 82, 113, 1);
+--btn--primary--bg--hover: rgba(230, 74, 102, 1);
+--btn--primary--body--default: rgba(255, 255, 255, 1);
+--btn--primary--body--hover: rgba(255, 255, 255, 1);
+--surface--25--default: rgba(252, 252, 252, 1);
+--surface--50--default: rgba(245, 245, 245, 1);
+--text--default: rgba(20, 20, 20, 1);
+--text--minor: rgba(140, 140, 140, 1);
+
+/* Effect styles */
+--elevation-400:  0px 4px 16px rgba(245, 245, 245, 1);
+
+}
